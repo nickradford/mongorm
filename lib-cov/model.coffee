@@ -1,7 +1,7 @@
 module.exports = class Model
     data: []
     new: () ->
-        true
+        
     save: () ->
         
     update: () ->
