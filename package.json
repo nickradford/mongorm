@@ -11,6 +11,9 @@
   "engines": {
     "node": "~v0.4.11"
   },
+  "main": "index"
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "coffee-script": "1.1.2"
+  }
 }
