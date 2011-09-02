@@ -7,12 +7,11 @@ mongORM is an Object-Relational mapping for MondoDB built on Node.js with Coffee
 ```coffeescript    
 mongorm = require 'mongorm'
 
-class PagesModel extends mongorm.Model
+PagesModel = class extends mongorm.Model
     constructor = () ->
         @title = new mongorm.fields.string
         @body  = new mongorm.fields.text
         
-PagesModel = new PagesModel()
 
 page = PagesModel.new
     title: "mongorm"
