@@ -1,0 +1,16 @@
+{
+  "author": "Nick Radford <nick@nicholasradford.com> (nicholasradford.com)",
+  "name": "mongorm",
+  "description": "An Object-Relational Mapping for MongoDB built for use with Node.js",
+  "version": "0.0.0",
+  "homepage": "github.com/nickradford/mongorm",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nickradford/mongorm.git"
+  },
+  "engines": {
+    "node": "~v0.4.11"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
