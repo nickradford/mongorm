@@ -19,3 +19,6 @@ mongORM is an Object-Relational mapping for MondoDB built on Node.js with Coffee
               on Node.js with Coffeescript
               """
     page.save()
+    
+    console.log page
+    # => {title: "mongorm", body: "mongorm is an ..."}
